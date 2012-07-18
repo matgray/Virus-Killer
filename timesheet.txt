@@ -1,0 +1,76 @@
+﻿Mathew Gray
+mhgray@andrew.cmu.edu
+Section D
+Mentor: Saagar
+timesheet.txt
+
+11/6 - 11/13 Combined total of 3 hours:
+    Documented details of the game
+    Used photoshop to design what the gameplay will look like
+    Downloaded pygame and installed dependencies
+    Went though some pygame tutorials online:
+        http://pygame.org/docs/tut/chimp/ChimpLineByLine.html
+        http://www.youtube.com/watch?v=0xgn-HKzZes
+        http://www.youtube.com/watch?v=IG2WidpYUY8
+
+11/13 – 11/20 Combined total of 4 hours:
+
+    Continued tutorials on pygame:
+    http://www.youtube.com/watch?v=9YWzFcHMz78
+    http://www.youtube.com/watch?v=LdXtjCfU_4g
+    http://www.youtube.com/watch?v=I2dhn3UOWKc
+    http://www.youtube.com/watch?v=6WtyuXTYgy8
+    http://www.youtube.com/watch?v=dy6M-32FdOI
+
+    Fixed xserver problem with pygame fullscreen mode crashing computer 
+    (This took a long time)
+
+    Used photoshop to design prototype main menu candidate
+     
+
+11/22 8:00pm - 11/23 12:00pm
+    Implemented window class, main loop, rotating crosshairs etc.
+
+11/23 9:15pm - 11/24 2:00pm
+    Implemented program container, programs, threads, and viruses.  Also got
+    viruses to move to the bottom of the screen in a random direction
+
+-- EMAILED SAAGAR --
+
+11/24:11:30pm - 11/25 5:15 pm
+    Implemented virual system class, viruses now steal files indexed from
+    home directory.  Also made viruses disappear and respawn if clicked on
+    (ie. click handling).  Power up class started, as well as the statTracker
+    class to record user statics
+
+-- EMAILED SAAGAR --
+
+11/26 2:45pm - 11/27 12:00pm
+    Finished all of the power ups and statTracker.  Implemented overlays (ie
+    main menu, game over, and next level screens).  Learned pygame mixer
+    and implemented sound
+
+-- EMAILED SAAGAR --
+
+11/28 10:00pm - 11/29 12:00am
+    Polished graphics and fixed various bugs
+
+11/30 9:00pm - 11/30 10:00pm
+    Implemented Debug Mode.  Switched all print statments to log statements, 
+    also made game compatible with Windows
+
+12/2 8:30pm - 12/2 10:00pm
+    More debugging.  Made sure comments were coherent
+
+12/4 11:30am - 11/4 10:00pm
+    Recorded video of game and converted from .ogv file to .avi file (WORST
+    EXPERIENCE EVER) and created video in Adobe Premiere in CFA.  Found out that
+    AFS doesn't give students enough room to render video onto server
+
+12/5 9:30pm - 12/6 12:00am
+    Rendered video to external hard drive - had to re-adjust all of the sound
+    because OS X doesn't write to NTFS partitions... And Adobe Premiere for OS X
+    and for Windows don't cooperate
+
+12/6 12:am - 12/6 3:00am
+    Wrote documentation for game
