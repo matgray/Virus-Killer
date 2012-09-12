@@ -535,7 +535,7 @@ class game(object):
                     self.resetAllThreads()
 
 # WIDTH, HEIGHT, BITS, FULLSCREEN FLAG
-game = game(800,600,32, False)
+game = game(1024,600,32, False)
 # Set the program icon
 gameIcon = pygame.image.load('res/images/icon.png').convert_alpha()
 pygame.display.set_icon(gameIcon)
