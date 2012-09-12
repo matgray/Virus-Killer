@@ -30,7 +30,7 @@ class tracker(object):
         
     def checkGameOver(self, totalCompFiles):
         """Checks the conditions to see if the game is over.  Returns bool"""
-        if self.num_compFiles > 15:
+        if self.num_compFiles > 75:
             return True
         else:
             return False
