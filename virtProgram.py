@@ -223,7 +223,7 @@ class spawner(object):
         self.numActive = numActive
         # The higher the level of the PROGRAM (NOT PLAYER) the less viruses spawned
         if (numActive < (6/progLevel)):
-            if (secsRunning % 5 == 0 and self.newlySpawned%2 == 0):
+            if (secsRunning % 5 == 0 or self.newlySpawned%2 == 0):
                 self.newlySpawned += 1
                 return True
         return False
