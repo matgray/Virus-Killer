@@ -1,10 +1,14 @@
-Mathew Gray
-
 VIRUS KILLER
+============
+(c) 2011 Mathew Gray
+
+---------------------------------------------
 
 COPYRIGHT:
 Virus Killer by Mathew Gray is licensed under a Creative Commons 
 Attribution-NonCommercial-ShareAlike 3.0 Unported License.  See copyright.md for details.
+
+---------------------------------------------
 
 Ultimately the aim of the game is to score as many points and survive 
 as many rounds as possible. Points are scored by destroying viruses.
@@ -40,7 +44,5 @@ INSTALLATION:
 
 After you install Python 2.7 and Pygame for Python 2.7, you can run VirusKiller
 This can be done by using terminal (or Microsoft equivalent) to cd into 
-VirusKiller's directory, then by typing:
-$ python virusKiller.py
-
-
+VirusKiller's directory, then by executing :
+`python virusKiller.py`
